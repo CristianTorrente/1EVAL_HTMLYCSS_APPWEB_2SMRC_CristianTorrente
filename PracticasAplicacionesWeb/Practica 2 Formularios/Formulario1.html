@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario1</title>
+  </head>
+  <body>
+     <form action="ejemplo.php" method="get">
+      <h1>Formulario</h1>
+      <label><b>Nombre:</b> <input type="text" name="nombre" size="40" /></label>
+      <label for="edad"><b>Edad:</b><input type="number" name="edad" id="edad" /></label>
+      <p><b>Apellido:</b> <input type="text" name="Apellido" size="40" /></p>
+      <p><b>Contraseña</b> <input type="password" name="contraseña" /></p>
+      <p><b>Año de nacimiento:</b> <input type="date" name="nacido" /></p>
+      <p><b>Color favorito:</b> <input type="color" name="Color fav" /></p>
+      <p>
+         Comida favorita: <input type="radio" name="hm" value="h" /> Macarrones
+        <input type="radio" name="hm" value="m" /> Espaguetis
+        <input type="radio" name="hm" value="m" /> Verduras
+
+
+      </p>
+     
+      <label for="nhijos">Número de hijos
+        <select name="nhijos" id="nhijos">
+          <option value="">..</option>
+          <option value="1">Uno</option>
+          <option value="2">Dos</option>
+          <option value="3">Tres</option>
+          <option value="Más de 3">Más de 3</option>
+        </select>
+      </label>
+      
+      
+</p>
+      <p>
+       Comentarios:
+        <textarea
+        placeholder="Escriba algo"
+          name="comentarios"
+          id="Comentarios"
+          cols="60"
+          rows="10"
+        ></textarea>
+        
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </p>
+    </form>
+  </body>
+</html>
