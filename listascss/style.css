@@ -1,7 +1,24 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
 h1{
     color: red;
     background-color: black;
 }
 dl{
-    background-color:lightblue ;
+    background-color: lightcoral;
+}
+
+
+dt.textoverde{
+    color: green;
+    text-align: center;
+}
+dt.textoazul{
+    color: darkblue;
+    text-align: center;
+}
+dd{
+font-size: medium;
 }
