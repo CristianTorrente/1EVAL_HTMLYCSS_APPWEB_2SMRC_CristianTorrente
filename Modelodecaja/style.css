@@ -1,0 +1,21 @@
+h1{
+    background-color: hotpink;2
+
+}
+body{
+    margin: 0px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: yellow;
+}
+p{
+    font-family: monospace;
+border-left: red;
+border-color: red black green;
+  border-width: 10px;
+  border-style: solid;
+  padding: 80px 6px 70px;
+}
+html{
+    border: green solid 4px;
+}
