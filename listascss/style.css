@@ -3,8 +3,8 @@ body{
     font-size: larger;
 }
 h1{
-    color: red;
-    background-color: black;
+    color: green;
+    background-color: lightcoral;
     
 }
 dl{
@@ -40,5 +40,8 @@ ol{
 }
 p{
     font-size: medium;
+}
+ul{
+    list-style-image:url();
 }
 
