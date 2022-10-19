@@ -42,6 +42,6 @@ p{
     font-size: medium;
 }
 ul{
-    list-style-image:url();
+    list-style-image:url("image/benzema20.jpg");
 }
 
