@@ -1,0 +1,18 @@
+span.especial1{
+    color: red;
+    font-style: oblique;
+}
+hr{
+    width: 60%;
+    height: 8px;
+    background-color:lawngreen;
+    border: red 2px solid;
+
+    
+}
+blockquote{
+    color: tomato;
+}
+span.negrita{
+font-weight: bold;    
+}
