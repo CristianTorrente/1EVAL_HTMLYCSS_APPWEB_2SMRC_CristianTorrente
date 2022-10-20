@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+    display: inline;
+    
+}
+header{
+    height: 20%;
+    background-color: aqua;
+}
+nav{
+    height: 60%;
+    background-color: lightcoral;
+}
+footer{
+    height: 20%;
+    background-color: yellow;
+}
