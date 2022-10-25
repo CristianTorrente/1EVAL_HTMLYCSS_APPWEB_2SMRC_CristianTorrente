@@ -1,0 +1,17 @@
+h1{
+    color: magenta;
+}
+p.rojo{
+    color: red;
+}
+main :first-child{
+    color:blue;
+}
+a:link{
+    background-color:yellow;
+}
+a:visited{
+    background-color: green;
+    color: white;
+}
+
