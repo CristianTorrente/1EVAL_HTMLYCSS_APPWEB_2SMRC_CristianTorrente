@@ -14,4 +14,8 @@ a:visited{
     background-color: green;
     color: white;
 }
+a:hover{
+    background-color: aqua;
+    color: red;
+}
 
