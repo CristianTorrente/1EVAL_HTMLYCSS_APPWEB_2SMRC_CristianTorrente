@@ -5,7 +5,7 @@ p.rojo{
     color: red;
 }
 main :first-child{
-    color:blue;
+    color:blu;
 }
 a:link{
     background-color:yellow;
@@ -26,4 +26,22 @@ a:active{
     background-color: yellow;
     color: white;
 }
+input:focus{
+    background-color: orange;
+    border: brown 3px solid;
+}
+.linea::first-line{
+   background-color: blue;
+    text-transform:capitalize ;
+    
+}
+p.parrafo::first-letter{
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: xx-large;
+    
+}
+
 
