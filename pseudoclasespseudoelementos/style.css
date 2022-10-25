@@ -17,5 +17,13 @@ a:visited{
 a:hover{
     background-color: aqua;
     color: red;
+    
+}
+a:active{
+    font-size: xx-large;
+}
+.parrafo2:hover{
+    background-color: yellow;
+    color: white;
 }
 
